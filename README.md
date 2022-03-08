@@ -40,3 +40,10 @@ These questions have been a common and consistent occurrence as shared by multip
 1. [Thread and processes](https://www.geeksforgeeks.org/difference-between-process-and-thread/)
    - Process are basically the programs which are dispatched from the ready state and are scheduled in the CPU for execution. PCB(Process Control Block) holds the concept of process. A process can create other processes which are known as Child Processes. The process takes more time to terminate and it is isolated means it does not share the memory with any other process. The process can have the following states like new, ready, running, waiting, terminated, suspended.
    - Thread is the segment of a process means a process can have multiple threads and these multiple threads are contained within a process. A thread has three states: Running, Ready, and Blocked. Thread takes less time to terminate as compared to process but unlike process threads do not isolate.
+
+## System Design
+
+1. [API Design](https://www.redhat.com/en/topics/api/what-is-api-design)
+   - API design refers to the process of developing application programming interfaces (APIs) that expose data and application functionality for use by developers and users. APIs are important to modern organizations, adding new capabilities to everything from their operations and products to their partnership strategies. It’s no longer a stretch to say that most organizations don’t ask whether to engage in API programs, but how to do so.
+2. [URL shorteners](https://en.wikipedia.org/wiki/URL_shortening)
+   - URL shortening is a technique on the World Wide Web in which a Uniform Resource Locator (URL) may be made substantially shorter and still direct to the required page.
