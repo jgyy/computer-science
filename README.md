@@ -34,3 +34,9 @@ These questions have been a common and consistent occurrence as shared by multip
    - DNS, or the Domain Name System, translates human readable domain names (for example, www.amazon.com) to machine readable IP addresses (for example, 192.0.2.44).
 7. [What happens when you click on a URL in your browser](https://www.freecodecamp.org/news/what-happens-when-you-hit-url-in-your-browser/)
    - DNS lookup to find IP address. After hitting the URL, the first thing that needs to happen is to resolve IP address associated with the domain name. DNS helps in resolving this. DNS is like a phone book and helps us to provide the IP address that is associated with the domain name just like our phone book gives a mobile number which is associated with the person’s name.
+
+## Operating Systems
+
+1. [Thread and processes](https://www.geeksforgeeks.org/difference-between-process-and-thread/)
+   - Process are basically the programs which are dispatched from the ready state and are scheduled in the CPU for execution. PCB(Process Control Block) holds the concept of process. A process can create other processes which are known as Child Processes. The process takes more time to terminate and it is isolated means it does not share the memory with any other process. The process can have the following states like new, ready, running, waiting, terminated, suspended.
+   - Thread is the segment of a process means a process can have multiple threads and these multiple threads are contained within a process. A thread has three states: Running, Ready, and Blocked. Thread takes less time to terminate as compared to process but unlike process threads do not isolate.
